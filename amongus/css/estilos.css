@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'ass' ;
+    src: url('/imagens/ass.ttf');
+}
+
+
+:root{
+--raspberry-rose: #bc4666ff;
+--bright-pink-crayola: #e7647bff;
+--dark-purple: #3e2130ff;
+--white: #fefefeff;
+--raisin-black: #2d2a3bff;
+--maize: #fdea71ff;
+--black: #030303ff;
+}
+
+body{
+    background: radial-gradient(var(--bright-pink-crayola),var(--maize));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--maize);
+
+}
+
+.central{
+    width: 40%;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 15px var(--raisin-black);
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: var(--maize);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+h1{
+    color: var(--raspberry-rose);
+    text-transform: uppercase;
+}
+
+h2{
+    font-family: 'ass';
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 0;
+}
